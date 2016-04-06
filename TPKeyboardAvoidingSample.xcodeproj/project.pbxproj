@@ -179,7 +179,7 @@
 		27FE59B513573CB900AAD959 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 27FE59B813573CB900AAD959 /* Build configuration list for PBXProject "TPKeyboardAvoidingSample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -274,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -307,6 +308,7 @@
 				GCC_PREFIX_HEADER = "TPKeyboardAvoidingSample/TPKeyboardAvoidingSample-Prefix.pch";
 				INFOPLIST_FILE = "TPKeyboardAvoidingSample/TPKeyboardAvoidingSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atastypixel.keyboardavoiding.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -322,6 +324,7 @@
 				GCC_PREFIX_HEADER = "TPKeyboardAvoidingSample/TPKeyboardAvoidingSample-Prefix.pch";
 				INFOPLIST_FILE = "TPKeyboardAvoidingSample/TPKeyboardAvoidingSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atastypixel.keyboardavoiding.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
