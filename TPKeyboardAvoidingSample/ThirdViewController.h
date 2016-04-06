@@ -10,6 +10,6 @@
 
 @interface ThirdViewController : UICollectionViewController
 
-@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+//@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
